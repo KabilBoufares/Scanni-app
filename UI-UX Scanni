@@ -1,0 +1,115 @@
+
+
+## 🎯 Objectif de l’UX dans Scanni
+
+Créer une application :
+
+* 📱 Facile à prendre en main dès la première utilisation
+* 🚀 Rapide à utiliser (règle des 3 clics)
+* 🔐 Respectueuse de la vie privée
+* 💡 Intelligente dans ses propositions (sans complexité)
+* 🧭 Cohérente, familière, accessible
+
+---
+
+## 🔹 1. Structure UX principale (Navigation)
+
+Scanni suit une **navigation simple en 3 ou 4 onglets** :
+
+| Onglet         | But UX                                         |
+| -------------- | ---------------------------------------------- |
+| **Scanner**    | Accès immédiat à la caméra / galerie           |
+| **Créer**      | Générer un QR avec le moins d'étapes possible  |
+| **Historique** | Revoir les derniers scans avec filtres simples |
+| **Paramètres** | (optionnel) Personnalisation, sauvegarde, etc. |
+
+🧠 **Loi de Hick** : on limite les choix visibles à l’essentiel.
+
+---
+
+## 🔹 2. Premier lancement (Onboarding UX)
+
+| Écran                                                         | But UX                                                     |
+| ------------------------------------------------------------- | ---------------------------------------------------------- |
+| Bienvenue                                                     | Montrer la valeur de l'app en 5 sec (règle des 5 secondes) |
+| Mini-guide                                                    | 2 à 3 écrans max, pas plus                                 |
+| Choix                                                         | “Se connecter avec Google” OU “Continuer sans compte”      |
+| → l’utilisateur décide en 1 clic (Loi de Tesler + simplicité) |                                                            |
+
+✅ **Règle des 3 clics** : depuis “Commencer” jusqu’au 1er scan ou QR généré.
+
+---
+
+## 🔹 3. Expérience de scan
+
+| Élément             | UX pensée                                                  |
+| ------------------- | ---------------------------------------------------------- |
+| Zone de scan        | Visuelle, encadrée, claire                                 |
+| Résultat instantané | Affiche le type de contenu reconnu (lien, texte, Wi-Fi...) |
+| Action contextuelle | Propose des boutons utiles : Ouvrir, Copier, Partager      |
+| Feedback visuel     | Couleur/animation si QR dangereux, inactif ou réussi       |
+
+**Affordance visuelle** : les boutons ont des icônes évidentes et tactiles.
+
+---
+
+## 🔹 4. Création de QR Code
+
+| UX                           | Détails                                     |
+| ---------------------------- | ------------------------------------------- |
+| Saisie minimaliste           | L’utilisateur remplit un ou deux champs max |
+| Type détecté automatiquement | Si c’est un lien, GPS, vCard → suggestion   |
+| Personnalisation optionnelle | Couleur/logo → mais pas imposée             |
+| Résultat immédiat            | QR affiché dès la génération                |
+
+**Loi de Miller** : pas plus de 5-7 éléments à la fois.
+
+---
+
+## 🔹 5. Historique
+
+| UX                         | Détails                                        |
+| -------------------------- | ---------------------------------------------- |
+| Classé par date            | Plus récent en haut, clair                     |
+| Icônes par type de contenu | Visuel : lien 🌐, Wi-Fi 📶, contact 👤...      |
+| Actions rapides            | Long appui ou glissement : Supprimer, Partager |
+| Mode privé activé ?        | Historique désactivé (feedback clair)          |
+
+**Effet Zeigarnik** : on peut revenir aux scans non consultés.
+
+---
+
+## 🔹 6. Accessibilité et confort
+
+| Bonnes pratiques UX              | Application dans Scanni                 |
+| -------------------------------- | --------------------------------------- |
+| Thème clair/sombre               | Choix dans les paramètres               |
+| Police lisible, éléments espacés | Respect des guidelines Android/iOS      |
+| Feedback visuel et sonore        | Scan réussi = animation + son doux      |
+| Textes courts et actions claires | Ex : “Scanner”, “Créer QR”, “Restaurer” |
+
+**Accessibilité universelle** : les personnes malvoyantes peuvent utiliser l’app facilement.
+
+---
+
+## 🧠 UX et émotion : confiance + rapidité
+
+Tu appliques :
+
+* ✅ **Effet pic-fin** : chaque action (scan, création) se termine bien
+* ✅ **Effet IKEA** : l’utilisateur valorise ce qu’il a fait (QR créé lui-même)
+* ✅ **Loi de Jakob** : l’interface reste familière pour les utilisateurs Android
+
+---
+
+## ✅ Résumé UX de Scanni
+
+| Principe UX         | Comment il est respecté                           |
+| ------------------- | ------------------------------------------------- |
+| Règle des 3 clics   | En 3 clics, on peut scanner, créer ou sauvegarder |
+| Loi de Hick         | Pas plus de 2-3 options à chaque étape            |
+| Simplicité          | Aucun texte inutile, parcours guidé               |
+| Prévisibilité       | Interface constante dans chaque onglet            |
+| Fluidité & rapidité | Tout est instantané, ou avec indicateur           |
+
+---
